@@ -7,3 +7,6 @@ def circle_square(r: float) -> float:
 
 def rect_square(a: float, b: float) -> float:
     return a * b
+
+if __name__ == '__main__':
+    assert  rect_square(2, 5) == 10
